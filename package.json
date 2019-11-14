@@ -1,13 +1,40 @@
 {
-    "name": "linter",
-    "version": "0.0.1",
-    "main": "index.js",
-    "author": "arsafab",
-    "dependencies": {
-        "eslint": "4.9.0",
-        "eslint-config-airbnb": "16.1.0",
-        "eslint-plugin-import": "2.7.0",
-        "eslint-plugin-jsx-a11y": "6.0.2",
-        "eslint-plugin-react": "7.4.0"
-    }
+  "name": "name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server",
+    "lint": "eslint src/js/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Evgeny Kravchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "style-loader": "^1.0.0",
+    "webpack": "4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
 }
